@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url("./img/Background-Wood.jpg") fixed;
+    text-align: center;
+}
+
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-image: url("./img/lum3n-Ngy0B2YWalk-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position-y: center;
+    color: #eff;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font: bold 5rem 'Cherry Cream Soda', cursive;
+    text-shadow: #000 0 6px 12px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 33%;
+    border: 2px black dotted;
+}
+
+.photo {
+    width: 100%;
+    height: 300px;
+}
+
+#pepperoni .photo {
+    background-image: url("./img/pepperoni.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#hawaiian .photo {
+    background-image: url("./img/hawaiina.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#vegetarian .photo{
+    background-image: url("./img/vegetariana.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.chosen {
+    border: 6px green solid;
+}
+
+h2 {
+    font: bold 2rem 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+h3 {
+    font: normal 1.5rem 'Josefin Sans', sans-serif;
+    margin: 20px;
+}
+
+input {
+    font-size: 2rem;
+    padding: 4px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    text-transform: uppercase;
+    margin: 20px;
+    font: bold 2rem 'Josefin Sans', sans-serif;
+    padding: 10px 40px;
+    border-radius: 30px ;
+    -webkit-border-radius: 30px ;
+    -moz-border-radius: 30px ;
+    -ms-border-radius: 30px ;
+    -o-border-radius: 30px ;
+    background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+}
+
+.btn:hover {
+    background-position: right center;
+}
